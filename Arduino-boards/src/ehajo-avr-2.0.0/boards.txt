@@ -1,0 +1,661 @@
+# eHaJo AVR -> Board Configuration
+# http://www.eHaJo.de
+# Feature requests and new boards to: info@ehajo.de
+
+############
+# menu names
+menu.cpu=Prozessor
+menu.clock=Takt
+menu.BOD=BOD
+menu.LTO=Compiler LTO
+menu.variant=Variante
+menu.bootloader=Bootloader
+
+
+
+##############################################################
+##############################################################
+##############################################################
+##############################################################
+# aTeVaL Board begins here:
+
+
+# aTeVaL general settings here:
+
+ateval-tiny13.name=aTeVaL IC1 (Attiny13, ...)
+ateval-tiny13.bootloader.unlock_bits=0xFF
+ateval-tiny13.bootloader.lock_bits=0xCF
+ateval-tiny13.bootloader.tool=avrdude
+ateval-tiny13.build.core=arduino:arduino
+ateval-tiny13.build.board=uno
+ateval-tiny13.upload.tool=avrdude
+
+ateval-tiny85.name=aTeVaL IC1 (Attiny85, ...)
+ateval-tiny85.bootloader.unlock_bits=0xFF
+ateval-tiny85.bootloader.lock_bits=0xCF
+ateval-tiny85.bootloader.tool=avrdude
+ateval-tiny85.build.core=arduino:arduino
+ateval-tiny85.build.board=uno
+ateval-tiny85.upload.tool=avrdude
+
+ateval-tiny2313.name=aTeVaL IC2 (Attiny2313, ...)
+ateval-tiny2313.bootloader.unlock_bits=0xFF
+ateval-tiny2313.bootloader.lock_bits=0xCF
+ateval-tiny2313.bootloader.tool=avrdude
+ateval-tiny2313.build.core=arduino:arduino
+ateval-tiny2313.build.board=uno
+ateval-tiny2313.upload.tool=avrdude
+
+ateval-mega8.name=aTeVaL IC3 (Atmega328, ...)
+ateval-mega8.bootloader.unlock_bits=0xFF
+ateval-mega8.bootloader.lock_bits=0xCF
+ateval-mega8.bootloader.tool=avrdude
+ateval-mega8.build.core=arduino:arduino
+ateval-mega8.build.board=uno
+ateval-mega8.upload.tool=avrdude
+
+##############################################################
+##############################################################
+# ateval clock settings for mega here:
+ateval-mega8.menu.clock.external16=16MHz (extern!)
+ateval-mega8.menu.clock.external16.build.f_cpu=16000000L
+ateval-mega8.menu.clock.external16.upload.low_fuses=0xFF
+ateval-mega8.menu.clock.internal1=1MHz (intern)
+ateval-mega8.menu.clock.internal1.build.f_cpu=1000000L
+ateval-mega8.menu.clock.internal1.upload.low_fuses=0x62
+ateval-mega8.menu.clock.internal8=8MHz (intern)
+ateval-mega8.menu.clock.internal8.build.f_cpu=8000000L
+ateval-mega8.menu.clock.internal8.upload.low_fuses=0xE2
+
+##############################################################
+# ateval clock settings for tiny13 here:
+ateval-tiny13.menu.clock.internal96=9,6MHz (intern)
+ateval-tiny13.menu.clock.internal96.build.f_cpu=9600000L
+ateval-tiny13.menu.clock.internal96.upload.low_fuses=0x7A
+ateval-tiny13.menu.clock.internal12=1,2MHz (intern)
+ateval-tiny13.menu.clock.internal12.build.f_cpu=1200000L
+ateval-tiny13.menu.clock.internal12.upload.low_fuses=0x6A
+ateval-tiny13.menu.clock.internal48=4,8MHz (intern)
+ateval-tiny13.menu.clock.internal48.build.f_cpu=4800000L
+ateval-tiny13.menu.clock.internal48.upload.low_fuses=0x79
+ateval-tiny13.menu.clock.internal06=0,6MHz (intern)
+ateval-tiny13.menu.clock.internal06.build.f_cpu=600000L
+ateval-tiny13.menu.clock.internal06.upload.low_fuses=0x69
+ateval-tiny13.menu.clock.internal128=128kHz (intern)
+ateval-tiny13.menu.clock.internal128.build.f_cpu=128000L
+ateval-tiny13.menu.clock.internal128.upload.low_fuses=0x7B
+ateval-tiny13.menu.clock.internal16=16kHz (intern)
+ateval-tiny13.menu.clock.internal16.build.f_cpu=16000L
+ateval-tiny13.menu.clock.internal16.upload.low_fuses=0x6B
+
+##############################################################
+# ateval clock settings for tiny2313 here:
+ateval-tiny2313.menu.clock.internal8=8MHz (intern)
+ateval-tiny2313.menu.clock.internal8.build.f_cpu=8000000L
+ateval-tiny2313.menu.clock.internal8.upload.low_fuses=0xE4
+ateval-tiny2313.menu.clock.internal1=1MHz (intern)
+ateval-tiny2313.menu.clock.internal1.build.f_cpu=1000000L
+ateval-tiny2313.menu.clock.internal1.upload.low_fuses=0x64
+ateval-tiny2313.menu.clock.internal4=4MHz (intern)
+ateval-tiny2313.menu.clock.internal4.build.f_cpu=4000000L
+ateval-tiny2313.menu.clock.internal4.upload.low_fuses=0xE2
+ateval-tiny2313.menu.clock.internal05=0,5MHz (intern)
+ateval-tiny2313.menu.clock.internal05.build.f_cpu=500000L
+ateval-tiny2313.menu.clock.internal05.upload.low_fuses=0x62
+ateval-tiny2313.menu.clock.internal0128=128kHz (intern)
+ateval-tiny2313.menu.clock.internal0128.build.f_cpu=128000L
+ateval-tiny2313.menu.clock.internal0128.upload.low_fuses=0xE6
+ateval-tiny2313.menu.clock.internal016=16kHz (intern)
+ateval-tiny2313.menu.clock.internal016.build.f_cpu=16000L
+ateval-tiny2313.menu.clock.internal016.upload.low_fuses=0x66
+
+##############################################################
+# ateval clock settings for tiny85 here:
+ateval-tiny85.menu.clock.internal8=8MHz (intern)
+ateval-tiny85.menu.clock.internal8.build.f_cpu=8000000L
+ateval-tiny85.menu.clock.internal8.upload.low_fuses=0xE2
+ateval-tiny85.menu.clock.internal1=1MHz (intern)
+ateval-tiny85.menu.clock.internal1.build.f_cpu=1000000L
+ateval-tiny85.menu.clock.internal1.upload.low_fuses=0x62
+ateval-tiny85.menu.clock.internal64=6,4MHz (intern)
+ateval-tiny85.menu.clock.internal64.build.f_cpu=6400000L
+ateval-tiny85.menu.clock.internal64.upload.low_fuses=0xD3
+ateval-tiny85.menu.clock.internal08=0,8MHz (intern)
+ateval-tiny85.menu.clock.internal08.build.f_cpu=800000L
+ateval-tiny85.menu.clock.internal08.upload.low_fuses=0x53
+ateval-tiny85.menu.clock.external8=8MHz (extern)
+ateval-tiny85.menu.clock.external8.build.f_cpu=8000000L
+ateval-tiny85.menu.clock.external8.upload.low_fuses=0xFE
+ateval-tiny85.menu.clock.external16=16MHz (extern)
+ateval-tiny85.menu.clock.external16.build.f_cpu=16000000L
+ateval-tiny85.menu.clock.external16.upload.low_fuses=0xFE
+
+##############################################################
+##############################################################
+# ateval with Atmega328P with Bootloader
+ateval-mega8.menu.cpu.m328bl=Atmega328P (standard)
+ateval-mega8.menu.cpu.m328bl.upload.maximum_size=32256
+ateval-mega8.menu.cpu.m328bl.upload.maximum_data_size=2048
+ateval-mega8.menu.cpu.m328bl.upload.port=UART0
+ateval-mega8.menu.cpu.m328bl.upload.speed=115200
+ateval-mega8.menu.cpu.m328bl.upload.protocol=arduino
+ateval-mega8.menu.cpu.m328bl.bootloader.low_fuses=0xFF
+ateval-mega8.menu.cpu.m328bl.bootloader.high_fuses=0xDE
+ateval-mega8.menu.cpu.m328bl.bootloader.extended_fuses=0xFD
+ateval-mega8.menu.cpu.m328bl.bootloader.file=optiboot_flash/bootloaders/{build.mcu}/{build.f_cpu}/optiboot_flash_{build.mcu}_{upload.port}_{upload.speed}_{build.f_cpu}_{build.bootloader_led}.hex
+ateval-mega8.menu.cpu.m328bl.build.mcu=atmega328p
+ateval-mega8.menu.cpu.m328bl.build.variant=standard
+ateval-mega8.menu.cpu.m328bl.build.f_cpu=16000000L
+
+##############################################################
+# ateval with Atmega328P without Bootloader
+ateval-mega8.menu.cpu.m328=Atmega328P w/o Bootloader
+ateval-mega8.menu.cpu.m328.upload.maximum_size=32768
+ateval-mega8.menu.cpu.m328.upload.protocol=avrispmkii
+ateval-mega8.menu.cpu.m328.upload.tool=avrdude
+ateval-mega8.menu.cpu.m328.upload.extended_fuses=0xFD
+ateval-mega8.menu.cpu.m328.upload.high_fuses=0xDE
+ateval-mega8.menu.cpu.m328.build.mcu=atmega328p
+ateval-mega8.menu.cpu.m328.build.variant=standard
+
+##############################################################
+# ateval with Atmega8 without Bootloader
+ateval-mega8.menu.cpu.m8=Atmega8 w/o Bootloader
+ateval-mega8.menu.cpu.m8.upload.maximum_size=8192
+ateval-mega8.menu.cpu.m8.upload.protocol=avrispmkii
+ateval-mega8.menu.cpu.m8.upload.tool=avrdude
+ateval-mega8.menu.cpu.m8.upload.extended_fuses=0xFD
+ateval-mega8.menu.cpu.m8.upload.high_fuses=0xDE
+ateval-mega8.menu.cpu.m8.build.mcu=atmega8
+ateval-mega8.menu.cpu.m8.build.variant=standard
+
+##############################################################
+# ateval with Atmega168P without Bootloader
+ateval-mega8.menu.cpu.m168=Atmega168P w/o Bootloader
+ateval-mega8.menu.cpu.m168.upload.maximum_size=16384
+ateval-mega8.menu.cpu.m168.upload.protocol=avrispmkii
+ateval-mega8.menu.cpu.m168.upload.tool=avrdude
+ateval-mega8.menu.cpu.m168.upload.extended_fuses=0xFD
+ateval-mega8.menu.cpu.m168.upload.high_fuses=0xDE
+ateval-mega8.menu.cpu.m168.build.mcu=atmega168p
+ateval-mega8.menu.cpu.m168.build.variant=standard
+
+##############################################################
+# ateval with Attiny13 attached (no BL here, just for real men.)
+ateval-tiny13.menu.cpu.t13=Atiny13 w/o Bootloader
+ateval-tiny13.menu.cpu.t13.upload.maximum_size=1024
+ateval-tiny13.menu.cpu.t13.upload.protocol=avrispmkii
+ateval-tiny13.menu.cpu.t13.upload.tool=avrdude
+ateval-tiny13.menu.cpu.t13.upload.high_fuses=0xFF
+ateval-tiny13.menu.cpu.t13.upload.extended_fuses=0xFF
+ateval-tiny13.menu.cpu.t13.build.mcu=attiny13
+ateval-tiny13.menu.cpu.t13.build.variant=t13
+
+##############################################################
+# ateval with Attiny2313 attached (no BL here, just for real men.)
+ateval-tiny2313.menu.cpu.t2313=Atiny2313 w/o Bootloader
+ateval-tiny2313.menu.cpu.t2313.upload.maximum_size=2048
+ateval-tiny2313.menu.cpu.t2313.upload.protocol=avrispmkii
+ateval-tiny2313.menu.cpu.t2313.upload.tool=avrdude
+ateval-tiny2313.menu.cpu.t2313.upload.high_fuses=0xDF
+ateval-tiny2313.menu.cpu.t2313.upload.extended_fuses=0xFF
+ateval-tiny2313.menu.cpu.t2313.build.mcu=attiny2313
+ateval-tiny2313.menu.cpu.t2313.build.variant=t2313
+
+##############################################################
+# ateval with Attiny4313 attached (no BL here, just for real men.)
+ateval-tiny2313.menu.cpu.t4313=Atiny4313 w/o Bootloader
+ateval-tiny2313.menu.cpu.t4313.upload.maximum_size=4096
+ateval-tiny2313.menu.cpu.t4313.upload.protocol=avrispmkii
+ateval-tiny2313.menu.cpu.t4313.upload.tool=avrdude
+ateval-tiny2313.menu.cpu.t4313.upload.high_fuses=0xDF
+ateval-tiny2313.menu.cpu.t4313.upload.extended_fuses=0xFF
+ateval-tiny2313.menu.cpu.t4313.build.mcu=attiny4313
+ateval-tiny2313.menu.cpu.t4313.build.variant=t2313
+
+##############################################################
+# ateval with Attiny25 attached (no BL here, just for real men.)
+ateval-tiny85.menu.cpu.attiny25=Attiny25
+ateval-tiny85.menu.cpu.attiny25.upload.maximum_size=2048
+ateval-tiny85.menu.cpu.attiny25.upload.maximum_data_size=128
+ateval-tiny85.menu.cpu.attiny25.upload.protocol=avrispmkii
+ateval-tiny85.menu.cpu.attiny25.upload.tool=avrdude
+ateval-tiny85.menu.cpu.attiny25.upload.high_fuses=0xDF
+ateval-tiny85.menu.cpu.attiny25.upload.extended_fuses=0xFF
+ateval-tiny85.menu.cpu.attiny25.build.mcu=attiny25
+ateval-tiny85.menu.cpu.attiny25.build.variant=tiny8
+
+##############################################################
+# ateval with Attiny45 attached (no BL here, just for real men.)
+ateval-tiny85.menu.cpu.attiny45=ATtiny45
+ateval-tiny85.menu.cpu.attiny45.upload.maximum_size=4096
+ateval-tiny85.menu.cpu.attiny45.upload.maximum_data_size=256
+ateval-tiny85.menu.cpu.attiny45.upload.protocol=avrispmkii
+ateval-tiny85.menu.cpu.attiny45.upload.tool=avrdude
+ateval-tiny85.menu.cpu.attiny45.upload.high_fuses=0xDF
+ateval-tiny85.menu.cpu.attiny45.upload.extended_fuses=0xFF
+ateval-tiny85.menu.cpu.attiny45.build.mcu=attiny45
+ateval-tiny85.menu.cpu.attiny45.build.variant=tiny8
+
+##############################################################
+# ateval with Attiny85 attached (no BL here, just for real men.)
+ateval-tiny85.menu.cpu.attiny85=ATtiny85
+ateval-tiny85.menu.cpu.attiny85.upload.maximum_size=8192
+ateval-tiny85.menu.cpu.attiny85.upload.maximum_data_size=512
+ateval-tiny85.menu.cpu.attiny85.upload.protocol=avrispmkii
+ateval-tiny85.menu.cpu.attiny85.upload.tool=avrdude
+ateval-tiny85.menu.cpu.attiny85.upload.high_fuses=0xDF
+ateval-tiny85.menu.cpu.attiny85.upload.extended_fuses=0xFF
+ateval-tiny85.menu.cpu.attiny85.build.mcu=attiny85
+ateval-tiny85.menu.cpu.attiny85.build.variant=tiny8
+
+## MCUDude stuff begins here:
+##############################################################
+# ateval with ATmega16 attached
+ateval-m16.name=aTeVaL IC4 (Atmega16, ...)
+ateval-m16.upload.tool=avrdude
+ateval-m16.upload.maximum_data_size=1024
+ateval-m16.bootloader.tool=avrdude
+ateval-m16.bootloader.unlock_bits=0x3f
+ateval-m16.bootloader.lock_bits=0x0f
+ateval-m16.bootloader.low_fuses=0b{bootloader.bod_bits}{bootloader.sut_cksel_bits}
+ateval-m16.bootloader.high_fuses=0b110{bootloader.ckopt_bit}010{bootloader.bootrst_bit}
+ateval-m16.build.core=arduino:arduino
+ateval-m16.build.board=uno
+ateval-m16.build.mcu=atmega16
+
+
+# Upload port select
+ateval-m16.menu.bootloader.uart0=Yes (UART0)
+ateval-m16.menu.bootloader.uart0.upload.maximum_size=15872
+ateval-m16.menu.bootloader.uart0.upload.protocol=arduino
+ateval-m16.menu.bootloader.uart0.upload.port=UART0
+ateval-m16.menu.bootloader.uart0.bootloader.bootrst_bit=0
+ateval-m16.menu.bootloader.uart0.bootloader.file=optiboot_flash/bootloaders/{build.mcu}/{build.f_cpu}/optiboot_flash_{build.mcu}_{upload.port}_{upload.speed}_{build.f_cpu}_B5.hex
+ateval-m16.menu.bootloader.no_bootloader=No bootloader
+ateval-m16.menu.bootloader.no_bootloader.upload.maximum_size=16384
+ateval-m16.menu.bootloader.no_bootloader.bootloader.bootrst_bit=1
+ateval-m16.menu.bootloader.no_bootloader.bootloader.file=empty/empty.hex
+
+
+# Brown out detection - This is the first part of the low fuse bit concatenation
+ateval-m16.menu.BOD.2v7=BOD 2.7V
+ateval-m16.menu.BOD.2v7.bootloader.bod_bits=10
+ateval-m16.menu.BOD.4v0=BOD 4.0V
+ateval-m16.menu.BOD.4v0.bootloader.bod_bits=00
+ateval-m16.menu.BOD.disabled=BOD disabled
+ateval-m16.menu.BOD.disabled.bootloader.bod_bits=11
+
+# Compiler link time optimization
+ateval-m16.menu.LTO.Os=LTO deaktiviert
+ateval-m16.menu.LTO.Os.compiler.c.extra_flags=
+ateval-m16.menu.LTO.Os.compiler.c.elf.extra_flags=
+ateval-m16.menu.LTO.Os.compiler.cpp.extra_flags=
+ateval-m16.menu.LTO.Os.ltoarcmd=avr-ar
+
+ateval-m16.menu.LTO.Os_flto=LTO aktiviert
+ateval-m16.menu.LTO.Os_flto.compiler.c.extra_flags=-Wextra -flto -g
+ateval-m16.menu.LTO.Os_flto.compiler.c.elf.extra_flags=-w -flto -g
+ateval-m16.menu.LTO.Os_flto.compiler.cpp.extra_flags=-Wextra -flto -g
+ateval-m16.menu.LTO.Os_flto.ltoarcmd=avr-gcc-ar
+
+# Clock frequencies - This is the second part of the low fuse bit concatenation
+ateval-m16.menu.clock.16MHz_external=External 16 MHz
+ateval-m16.menu.clock.16MHz_external.upload.speed=115200
+ateval-m16.menu.clock.16MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.16MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.16MHz_external.build.f_cpu=16000000L
+
+ateval-m16.menu.clock.20MHz_external=External 20 MHz
+ateval-m16.menu.clock.20MHz_external.upload.speed=115200
+ateval-m16.menu.clock.20MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.20MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.20MHz_external.build.f_cpu=20000000L
+
+ateval-m16.menu.clock.18_432MHz_external=External 18.4320 MHz
+ateval-m16.menu.clock.18_432MHz_external.upload.speed=115200
+ateval-m16.menu.clock.18_432MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.18_432MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.18_432MHz_external.build.f_cpu=18432000L
+
+ateval-m16.menu.clock.14_7456MHz_external=External 14.7456 MHz
+ateval-m16.menu.clock.14_7456MHz_external.upload.speed=115200
+ateval-m16.menu.clock.14_7456MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.14_7456MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.14_7456MHz_external.build.f_cpu=14745600L
+
+ateval-m16.menu.clock.12MHz_external=External 12 MHz
+ateval-m16.menu.clock.12MHz_external.upload.speed=57600
+ateval-m16.menu.clock.12MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.12MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.12MHz_external.build.f_cpu=12000000L
+
+ateval-m16.menu.clock.11_0592MHz_external=External 11.0592 MHz
+ateval-m16.menu.clock.11_0592MHz_external.upload.speed=115200
+ateval-m16.menu.clock.11_0592MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.11_0592MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.11_0592MHz_external.build.f_cpu=11059200L
+
+ateval-m16.menu.clock.8MHz_external=External 8 MHz
+ateval-m16.menu.clock.8MHz_external.upload.speed=57600
+ateval-m16.menu.clock.8MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.8MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.8MHz_external.build.f_cpu=8000000L
+
+ateval-m16.menu.clock.7_3728MHz_external=External 7.3728 MHz
+ateval-m16.menu.clock.7_3728MHz_external.upload.speed=115200
+ateval-m16.menu.clock.7_3728MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.7_3728MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.7_3728MHz_external.build.f_cpu=7372800L
+
+ateval-m16.menu.clock.3_6864MHz_external=External 3.6864 MHz
+ateval-m16.menu.clock.3_6864MHz_external.upload.speed=115200
+ateval-m16.menu.clock.3_6864MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.3_6864MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.3_6864MHz_external.build.f_cpu=3686400L
+
+ateval-m16.menu.clock.1_8432MHz_external=External 1.8432 MHz
+ateval-m16.menu.clock.1_8432MHz_external.upload.speed=115200
+ateval-m16.menu.clock.1_8432MHz_external.bootloader.sut_cksel_bits=111111
+ateval-m16.menu.clock.1_8432MHz_external.bootloader.ckopt_bit=0
+ateval-m16.menu.clock.1_8432MHz_external.build.f_cpu=1843200L
+
+ateval-m16.menu.clock.8MHz_internal=Internal 8 MHz
+ateval-m16.menu.clock.8MHz_internal.upload.speed=38400
+ateval-m16.menu.clock.8MHz_internal.bootloader.sut_cksel_bits=100100
+ateval-m16.menu.clock.8MHz_internal.bootloader.ckopt_bit=1
+ateval-m16.menu.clock.8MHz_internal.build.f_cpu=8000000L
+
+ateval-m16.menu.clock.1MHz_internal=Internal 1 MHz
+ateval-m16.menu.clock.1MHz_internal.upload.speed=9600
+ateval-m16.menu.clock.1MHz_internal.bootloader.sut_cksel_bits=100001
+ateval-m16.menu.clock.1MHz_internal.bootloader.ckopt_bit=1
+ateval-m16.menu.clock.1MHz_internal.build.f_cpu=1000000L
+
+
+
+
+##############################################################
+##############################################################
+##############################################################
+##############################################################
+# Gscheiduino Board begins here:
+
+
+# Gscheiduino general settings here:
+gscheiduino-mega.name=Gscheiduino (Atmega8, ...)
+gscheiduino-mega.bootloader.unlock_bits=0xFF
+gscheiduino-mega.bootloader.lock_bits=0xCF
+gscheiduino-mega.bootloader.tool=avrdude
+gscheiduino-mega.build.core=arduino:arduino
+gscheiduino-mega.build.board=uno
+gscheiduino-mega.upload.tool=avrdude
+
+gscheiduino-tiny13.name=Gscheiduino (Attiny13, ...)
+gscheiduino-tiny13.bootloader.unlock_bits=0xFF
+gscheiduino-tiny13.bootloader.lock_bits=0xCF
+gscheiduino-tiny13.bootloader.tool=avrdude
+gscheiduino-tiny13.build.core=arduino:arduino
+gscheiduino-tiny13.build.board=uno
+gscheiduino-tiny13.upload.tool=avrdude
+
+gscheiduino-tiny2313.name=Gscheiduino (Attiny2313, ...)
+gscheiduino-tiny2313.bootloader.unlock_bits=0xFF
+gscheiduino-tiny2313.bootloader.lock_bits=0xCF
+gscheiduino-tiny2313.bootloader.tool=avrdude
+gscheiduino-tiny2313.build.core=arduino:arduino
+gscheiduino-tiny2313.build.board=uno
+gscheiduino-tiny2313.upload.tool=avrdude
+
+gscheiduino-tiny85.name=Gscheiduino (Attiny85, ...)
+gscheiduino-tiny85.bootloader.unlock_bits=0xFF
+gscheiduino-tiny85.bootloader.lock_bits=0xCF
+gscheiduino-tiny85.bootloader.tool=avrdude
+gscheiduino-tiny85.build.core=arduino:arduino
+gscheiduino-tiny85.build.board=uno
+gscheiduino-tiny85.upload.tool=avrdude
+
+##############################################################
+##############################################################
+# Gscheiduino clock settings for mega here:
+gscheiduino-mega.menu.clock.external16=16MHz (extern!)
+gscheiduino-mega.menu.clock.external16.build.f_cpu=16000000L
+gscheiduino-mega.menu.clock.external16.upload.low_fuses=0xFF
+gscheiduino-mega.menu.clock.internal1=1MHz (intern)
+gscheiduino-mega.menu.clock.internal1.build.f_cpu=1000000L
+gscheiduino-mega.menu.clock.internal1.upload.low_fuses=0x62
+gscheiduino-mega.menu.clock.internal8=8MHz (intern)
+gscheiduino-mega.menu.clock.internal8.build.f_cpu=8000000L
+gscheiduino-mega.menu.clock.internal8.upload.low_fuses=0xE2
+
+##############################################################
+# Gscheiduino clock settings for tiny13 here:
+gscheiduino-tiny13.menu.clock.internal96=9,6MHz (intern)
+gscheiduino-tiny13.menu.clock.internal96.build.f_cpu=9600000L
+gscheiduino-tiny13.menu.clock.internal96.upload.low_fuses=0x7A
+gscheiduino-tiny13.menu.clock.internal12=1,2MHz (intern)
+gscheiduino-tiny13.menu.clock.internal12.build.f_cpu=1200000L
+gscheiduino-tiny13.menu.clock.internal12.upload.low_fuses=0x6A
+gscheiduino-tiny13.menu.clock.internal48=4,8MHz (intern)
+gscheiduino-tiny13.menu.clock.internal48.build.f_cpu=4800000L
+gscheiduino-tiny13.menu.clock.internal48.upload.low_fuses=0x79
+gscheiduino-tiny13.menu.clock.internal06=0,6MHz (intern)
+gscheiduino-tiny13.menu.clock.internal06.build.f_cpu=600000L
+gscheiduino-tiny13.menu.clock.internal06.upload.low_fuses=0x69
+gscheiduino-tiny13.menu.clock.internal128=128kHz (intern)
+gscheiduino-tiny13.menu.clock.internal128.build.f_cpu=128000L
+gscheiduino-tiny13.menu.clock.internal128.upload.low_fuses=0x7B
+gscheiduino-tiny13.menu.clock.internal16=16kHz (intern)
+gscheiduino-tiny13.menu.clock.internal16.build.f_cpu=16000L
+gscheiduino-tiny13.menu.clock.internal16.upload.low_fuses=0x6B
+
+##############################################################
+# Gscheiduino clock settings for tiny2313 here:
+gscheiduino-tiny2313.menu.clock.internal8=8MHz (intern)
+gscheiduino-tiny2313.menu.clock.internal8.build.f_cpu=8000000L
+gscheiduino-tiny2313.menu.clock.internal8.upload.low_fuses=0xE4
+gscheiduino-tiny2313.menu.clock.internal1=1MHz (intern)
+gscheiduino-tiny2313.menu.clock.internal1.build.f_cpu=1000000L
+gscheiduino-tiny2313.menu.clock.internal1.upload.low_fuses=0x64
+gscheiduino-tiny2313.menu.clock.internal4=4MHz (intern)
+gscheiduino-tiny2313.menu.clock.internal4.build.f_cpu=4000000L
+gscheiduino-tiny2313.menu.clock.internal4.upload.low_fuses=0xE2
+gscheiduino-tiny2313.menu.clock.internal05=0,5MHz (intern)
+gscheiduino-tiny2313.menu.clock.internal05.build.f_cpu=500000L
+gscheiduino-tiny2313.menu.clock.internal05.upload.low_fuses=0x62
+gscheiduino-tiny2313.menu.clock.internal0128=128kHz (intern)
+gscheiduino-tiny2313.menu.clock.internal0128.build.f_cpu=128000L
+gscheiduino-tiny2313.menu.clock.internal0128.upload.low_fuses=0xE6
+gscheiduino-tiny2313.menu.clock.internal016=16kHz (intern)
+gscheiduino-tiny2313.menu.clock.internal016.build.f_cpu=16000L
+gscheiduino-tiny2313.menu.clock.internal016.upload.low_fuses=0x66
+
+##############################################################
+# Gscheiduino clock settings for tiny85 here:
+gscheiduino-tiny85.menu.clock.internal8=8MHz (intern)
+gscheiduino-tiny85.menu.clock.internal8.build.f_cpu=8000000L
+gscheiduino-tiny85.menu.clock.internal8.upload.low_fuses=0xE2
+gscheiduino-tiny85.menu.clock.internal1=1MHz (intern)
+gscheiduino-tiny85.menu.clock.internal1.build.f_cpu=1000000L
+gscheiduino-tiny85.menu.clock.internal1.upload.low_fuses=0x62
+gscheiduino-tiny85.menu.clock.internal64=6,4MHz (intern)
+gscheiduino-tiny85.menu.clock.internal64.build.f_cpu=6400000L
+gscheiduino-tiny85.menu.clock.internal64.upload.low_fuses=0xD3
+gscheiduino-tiny85.menu.clock.internal08=0,8MHz (intern)
+gscheiduino-tiny85.menu.clock.internal08.build.f_cpu=800000L
+gscheiduino-tiny85.menu.clock.internal08.upload.low_fuses=0x53
+gscheiduino-tiny85.menu.clock.external8=8MHz (extern)
+gscheiduino-tiny85.menu.clock.external8.build.f_cpu=8000000L
+gscheiduino-tiny85.menu.clock.external8.upload.low_fuses=0xFE
+gscheiduino-tiny85.menu.clock.external16=16MHz (extern)
+gscheiduino-tiny85.menu.clock.external16.build.f_cpu=16000000L
+gscheiduino-tiny85.menu.clock.external16.upload.low_fuses=0xFE
+
+##############################################################
+##############################################################
+# Gscheiduino with Atmega328P with Bootloader
+gscheiduino-mega.menu.cpu.m328bl=Atmega328P (standard)
+gscheiduino-mega.menu.cpu.m328bl.upload.maximum_size=32256
+gscheiduino-mega.menu.cpu.m328bl.upload.maximum_data_size=2048
+gscheiduino-mega.menu.cpu.m328bl.upload.speed=115200
+gscheiduino-mega.menu.cpu.m328bl.upload.protocol=arduino
+gscheiduino-mega.menu.cpu.m328bl.bootloader.low_fuses=0xFF
+gscheiduino-mega.menu.cpu.m328bl.bootloader.high_fuses=0xDE
+gscheiduino-mega.menu.cpu.m328bl.bootloader.extended_fuses=0xFD
+gscheiduino-mega.menu.cpu.m328bl.bootloader.file=optiboot/optiboot_atmega328.hex
+gscheiduino-mega.menu.cpu.m328bl.build.mcu=atmega328p
+gscheiduino-mega.menu.cpu.m328bl.build.variant=gscheiduino-std
+gscheiduino-mega.menu.cpu.m328bl.build.f_cpu=16000000L
+
+##############################################################
+# Gscheiduino with Atmega328P without Bootloader
+gscheiduino-mega.menu.cpu.m328=Atmega328P w/o Bootloader
+gscheiduino-mega.menu.cpu.m328.upload.maximum_size=32768
+gscheiduino-mega.menu.cpu.m328.upload.protocol=avrispmkii
+gscheiduino-mega.menu.cpu.m328.upload.tool=avrdude
+gscheiduino-mega.menu.cpu.m328.upload.extended_fuses=0xFD
+gscheiduino-mega.menu.cpu.m328.upload.high_fuses=0xDE
+gscheiduino-mega.menu.cpu.m328.build.mcu=atmega328p
+gscheiduino-mega.menu.cpu.m328.build.variant=gscheiduino-std
+
+##############################################################
+# Gscheiduino with Atmega8 without Bootloader
+gscheiduino-mega.menu.cpu.m8=Atmega8 w/o Bootloader
+gscheiduino-mega.menu.cpu.m8.upload.maximum_size=8192
+gscheiduino-mega.menu.cpu.m8.upload.protocol=avrispmkii
+gscheiduino-mega.menu.cpu.m8.upload.tool=avrdude
+gscheiduino-mega.menu.cpu.m8.upload.extended_fuses=0xFD
+gscheiduino-mega.menu.cpu.m8.upload.high_fuses=0xDE
+gscheiduino-mega.menu.cpu.m8.build.mcu=atmega8
+gscheiduino-mega.menu.cpu.m8.build.variant=gscheiduino-std
+
+##############################################################
+# Gscheiduino with Atmega168P without Bootloader
+gscheiduino-mega.menu.cpu.m168=Atmega168P w/o Bootloader
+gscheiduino-mega.menu.cpu.m168.upload.maximum_size=16384
+gscheiduino-mega.menu.cpu.m168.upload.protocol=avrispmkii
+gscheiduino-mega.menu.cpu.m168.upload.tool=avrdude
+gscheiduino-mega.menu.cpu.m168.upload.extended_fuses=0xFD
+gscheiduino-mega.menu.cpu.m168.upload.high_fuses=0xDE
+gscheiduino-mega.menu.cpu.m168.build.mcu=atmega168p
+gscheiduino-mega.menu.cpu.m168.build.variant=gscheiduino-std
+
+##############################################################
+# Gscheiduino with Attiny13 attached (no BL here, just for real men.)
+gscheiduino-tiny13.menu.cpu.t13=Atiny13 w/o Bootloader
+gscheiduino-tiny13.menu.cpu.t13.upload.maximum_size=1024
+gscheiduino-tiny13.menu.cpu.t13.upload.protocol=avrispmkii
+gscheiduino-tiny13.menu.cpu.t13.upload.tool=avrdude
+gscheiduino-tiny13.menu.cpu.t13.upload.high_fuses=0xFF
+gscheiduino-tiny13.menu.cpu.t13.upload.extended_fuses=0xFF
+gscheiduino-tiny13.menu.cpu.t13.build.mcu=attiny13
+gscheiduino-tiny13.menu.cpu.t13.build.variant=gscheiduino-t13
+
+##############################################################
+# Gscheiduino with Attiny2313 attached (no BL here, just for real men.)
+gscheiduino-tiny2313.menu.cpu.t2313=Atiny2313 w/o Bootloader
+gscheiduino-tiny2313.menu.cpu.t2313.upload.maximum_size=2048
+gscheiduino-tiny2313.menu.cpu.t2313.upload.protocol=avrispmkii
+gscheiduino-tiny2313.menu.cpu.t2313.upload.tool=avrdude
+gscheiduino-tiny2313.menu.cpu.t2313.upload.high_fuses=0xDF
+gscheiduino-tiny2313.menu.cpu.t2313.upload.extended_fuses=0xFF
+gscheiduino-tiny2313.menu.cpu.t2313.build.mcu=attiny2313
+gscheiduino-tiny2313.menu.cpu.t2313.build.variant=gscheiduino-t2313
+
+##############################################################
+# Gscheiduino with Attiny4313 attached (no BL here, just for real men.)
+gscheiduino-tiny2313.menu.cpu.t4313=Atiny4313 w/o Bootloader
+gscheiduino-tiny2313.menu.cpu.t4313.upload.maximum_size=4096
+gscheiduino-tiny2313.menu.cpu.t4313.upload.protocol=avrispmkii
+gscheiduino-tiny2313.menu.cpu.t4313.upload.tool=avrdude
+gscheiduino-tiny2313.menu.cpu.t4313.upload.high_fuses=0xDF
+gscheiduino-tiny2313.menu.cpu.t4313.upload.extended_fuses=0xFF
+gscheiduino-tiny2313.menu.cpu.t4313.build.mcu=attiny4313
+gscheiduino-tiny2313.menu.cpu.t4313.build.variant=gscheiduino-t2313
+
+##############################################################
+# Gscheiduino with Attiny45 attached (no BL here, just for real men.)
+gscheiduino-tiny85.menu.cpu.attiny45=ATtiny45
+gscheiduino-tiny85.menu.cpu.attiny45.upload.maximum_size=4096
+gscheiduino-tiny85.menu.cpu.attiny45.upload.maximum_data_size=256
+gscheiduino-tiny85.menu.cpu.attiny45.upload.protocol=avrispmkii
+gscheiduino-tiny85.menu.cpu.attiny45.upload.tool=avrdude
+gscheiduino-tiny85.menu.cpu.attiny45.upload.high_fuses=0xDF
+gscheiduino-tiny85.menu.cpu.attiny45.upload.extended_fuses=0xFF
+gscheiduino-tiny85.menu.cpu.attiny45.build.mcu=attiny45
+gscheiduino-tiny85.menu.cpu.attiny45.build.variant=tiny8
+
+##############################################################
+# Gscheiduino with Attiny85 attached (no BL here, just for real men.)
+gscheiduino-tiny85.menu.cpu.attiny85=ATtiny85
+gscheiduino-tiny85.menu.cpu.attiny85.upload.maximum_size=8192
+gscheiduino-tiny85.menu.cpu.attiny85.upload.maximum_data_size=512
+gscheiduino-tiny85.menu.cpu.attiny85.upload.protocol=avrispmkii
+gscheiduino-tiny85.menu.cpu.attiny85.upload.tool=avrdude
+gscheiduino-tiny85.menu.cpu.attiny85.upload.high_fuses=0xDF
+gscheiduino-tiny85.menu.cpu.attiny85.upload.extended_fuses=0xFF
+gscheiduino-tiny85.menu.cpu.attiny85.build.mcu=attiny85
+gscheiduino-tiny85.menu.cpu.attiny85.build.variant=tiny8
+
+
+
+
+
+##############################################################
+##############################################################
+##############################################################
+##############################################################
+# Fishfeeder Board begins here:
+fishfeeder.name=Fishfeeder
+
+fishfeeder.vid.0=0x2341
+fishfeeder.pid.0=0x0037
+fishfeeder.vid.1=0x2341
+fishfeeder.pid.1=0x8037
+fishfeeder.vid.2=0x2A03
+fishfeeder.pid.2=0x0037
+fishfeeder.vid.3=0x2A03
+fishfeeder.pid.3=0x8037
+fishfeeder.vid.4=0x2341
+fishfeeder.pid.4=0x0237
+# If the board is a 2341:0237 use 2341:8237 for build and set
+# other parameters as well
+fishfeeder.vid.4.build.vid=0x2341
+fishfeeder.vid.4.build.pid=0x8237
+fishfeeder.vid.4.build.usb_product="Genuino Micro"
+fishfeeder.vid.4.bootloader.file=caterina/Caterina-Genuino-micro.hex
+fishfeeder.vid.5=0x2341
+fishfeeder.pid.5=0x8237
+# If the board is a 2341:8237 use 2341:8237 for build and set
+# other paramters as well
+fishfeeder.vid.5.build.vid=0x2341
+fishfeeder.vid.5.build.pid=0x8237
+fishfeeder.vid.5.build.usb_product="Genuino Micro"
+fishfeeder.vid.5.bootloader.file=caterina/Caterina-Genuino-micro.hex
+
+fishfeeder.upload.tool=avrdude
+fishfeeder.upload.protocol=avr109
+fishfeeder.upload.maximum_size=28672
+fishfeeder.upload.maximum_data_size=2560
+fishfeeder.upload.speed=57600
+fishfeeder.upload.disable_flushing=true
+fishfeeder.upload.use_1200bps_touch=true
+fishfeeder.upload.wait_for_upload_port=true
+
+fishfeeder.bootloader.tool=avrdude
+fishfeeder.bootloader.low_fuses=0xff
+fishfeeder.bootloader.high_fuses=0xd8
+fishfeeder.bootloader.extended_fuses=0xcb
+fishfeeder.bootloader.file=caterina/Caterina-micro.hex
+fishfeeder.bootloader.unlock_bits=0x3F
+fishfeeder.bootloader.lock_bits=0x2F
+
+fishfeeder.build.mcu=atmega32u4
+fishfeeder.build.f_cpu=16000000L
+fishfeeder.build.vid=0x2341
+fishfeeder.build.pid=0x8037
+fishfeeder.build.usb_product="eHaJo Fishfeeder"
+fishfeeder.build.board=AVR_MICRO
+fishfeeder.build.core=arduino
+fishfeeder.build.variant=fishfeeder
+fishfeeder.build.extra_flags={build.usb_flags}

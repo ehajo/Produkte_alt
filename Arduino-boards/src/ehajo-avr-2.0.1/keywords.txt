@@ -1,0 +1,12 @@
+#######################################
+# Syntax Coloring Map for aTeVaL
+#######################################
+LED_RED			RESERVED_WORD_2
+LED_YELLOW			RESERVED_WORD_2
+LED_GREEN			RESERVED_WORD_2
+BUTTON_S1			RESERVED_WORD_2
+BUTTON_S2			RESERVED_WORD_2
+BUTTON_S3			RESERVED_WORD_2
+BUZZER			RESERVED_WORD_2
+POTI1			RESERVED_WORD_2
+POTI2			RESERVED_WORD_2

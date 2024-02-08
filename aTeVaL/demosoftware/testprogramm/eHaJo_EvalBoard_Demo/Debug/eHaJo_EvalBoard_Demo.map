@@ -1,0 +1,1371 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+                              modbus/port/portserial.o (__udivmodsi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+                              usart/usart_tools.o (__divmodsi4)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+                              c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o (exit)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+                              ateval_test/atevaltest.o (__do_copy_data)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+                              ateval_test/atevaltest.o (__do_clear_bss)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+                              modbus/port/porttimer.o (__umulhisi3)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+                              modbus/functions/mbfuncother.o (memcpy)
+c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+                              ateval_test/atevaltest.o (__eerd_byte_m8a)
+
+Allocating common symbols
+Common symbol       size              file
+
+fptr                0x2               usart/usart.o
+pxMBFrameCBTransmitterEmpty
+                    0x2               modbus/mb.o
+pxMBPortCBTimerExpired
+                    0x2               modbus/mb.o
+ucRTUBuf            0x100             modbus/rtu/mbrtu.o
+pxMBFrameCBByteReceived
+                    0x2               modbus/mb.o
+pxMBFrameCBTransmitFSMCur
+                    0x2               modbus/mb.o
+pxMBFrameCBReceiveFSMCur
+                    0x2               modbus/mb.o
+
+Discarded input sections
+
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+ .text          0x00000000        0x0 adc/adc.o
+ .bss           0x00000000        0x0 adc/adc.o
+ .text          0x00000000        0x0 ateval_test/atevaltest.o
+ .bss           0x00000000        0x0 ateval_test/atevaltest.o
+ .text.print_i2c_eeprom
+                0x00000000        0xa ateval_test/atevaltest.o
+ .progmem.data.__c.2037
+                0x00000000        0xc ateval_test/atevaltest.o
+ .text          0x00000000        0x0 eHaJo_EvalBoard_Demo.o
+ .bss           0x00000000        0x0 eHaJo_EvalBoard_Demo.o
+ .bss.ledstatus2
+                0x00000000        0x1 eHaJo_EvalBoard_Demo.o
+ .bss.ledstatus
+                0x00000000        0x1 eHaJo_EvalBoard_Demo.o
+ .text          0x00000000        0x0 gpio/gpio.o
+ .bss           0x00000000        0x0 gpio/gpio.o
+ .text.Get_Led1
+                0x00000000        0xa gpio/gpio.o
+ .text.Get_Led2
+                0x00000000        0xa gpio/gpio.o
+ .text.Set_Summer
+                0x00000000        0xc gpio/gpio.o
+ .text.Toggle_Summer
+                0x00000000        0x4 gpio/gpio.o
+ .text          0x00000000        0x0 i2ceeprom/i2ceeprom.o
+ .bss           0x00000000        0x0 i2ceeprom/i2ceeprom.o
+ .text.i2c_bus_test
+                0x00000000       0x22 i2ceeprom/i2ceeprom.o
+ .text.ReadByteFromEEPROM
+                0x00000000       0x38 i2ceeprom/i2ceeprom.o
+ .text.ReadWordFromEEPROM
+                0x00000000       0x4a i2ceeprom/i2ceeprom.o
+ .text.WriteByteToEEPROM
+                0x00000000       0x34 i2ceeprom/i2ceeprom.o
+ .text.WriteWordToEEPROM
+                0x00000000       0x44 i2ceeprom/i2ceeprom.o
+ .text.write_string_to_eeprom
+                0x00000000       0x5c i2ceeprom/i2ceeprom.o
+ .text.read_string_from_eeprom
+                0x00000000       0x7a i2ceeprom/i2ceeprom.o
+ .text          0x00000000        0x0 i2c/twimaster.o
+ .bss           0x00000000        0x0 i2c/twimaster.o
+ .text.i2c_init
+                0x00000000       0x32 i2c/twimaster.o
+ .text.i2c_start
+                0x00000000       0x36 i2c/twimaster.o
+ .text.i2c_start_wait
+                0x00000000       0x3c i2c/twimaster.o
+ .text.i2c_rep_start
+                0x00000000        0x2 i2c/twimaster.o
+ .text.i2c_stop
+                0x00000000        0xc i2c/twimaster.o
+ .text.i2c_write
+                0x00000000       0x1a i2c/twimaster.o
+ .text.i2c_readAck
+                0x00000000        0xe i2c/twimaster.o
+ .text.i2c_readNak
+                0x00000000        0xe i2c/twimaster.o
+ .text          0x00000000        0x0 modbus/ascii/mbascii.o
+ .bss           0x00000000        0x0 modbus/ascii/mbascii.o
+ .text          0x00000000        0x0 modbus/functions/mbfunccoils.o
+ .bss           0x00000000        0x0 modbus/functions/mbfunccoils.o
+ .text          0x00000000        0x0 modbus/functions/mbfuncdiag.o
+ .bss           0x00000000        0x0 modbus/functions/mbfuncdiag.o
+ .text          0x00000000        0x0 modbus/functions/mbfuncdisc.o
+ .bss           0x00000000        0x0 modbus/functions/mbfuncdisc.o
+ .text          0x00000000        0x0 modbus/functions/mbfuncholding.o
+ .bss           0x00000000        0x0 modbus/functions/mbfuncholding.o
+ .text.eMBFuncWriteHoldingRegister
+                0x00000000       0x32 modbus/functions/mbfuncholding.o
+ .text.eMBFuncWriteMultipleHoldingRegister
+                0x00000000       0x62 modbus/functions/mbfuncholding.o
+ .text.eMBFuncReadHoldingRegister
+                0x00000000       0x8a modbus/functions/mbfuncholding.o
+ .text          0x00000000        0x0 modbus/functions/mbfuncinput.o
+ .bss           0x00000000        0x0 modbus/functions/mbfuncinput.o
+ .text.eMBFuncReadInputRegister
+                0x00000000       0x8c modbus/functions/mbfuncinput.o
+ .text          0x00000000        0x0 modbus/functions/mbfuncother.o
+ .bss           0x00000000        0x0 modbus/functions/mbfuncother.o
+ .text.eMBSetSlaveID
+                0x00000000       0x56 modbus/functions/mbfuncother.o
+ .text.eMBFuncReportSlaveID
+                0x00000000       0x38 modbus/functions/mbfuncother.o
+ .bss.usMBSlaveIDLen
+                0x00000000        0x2 modbus/functions/mbfuncother.o
+ .bss.ucMBSlaveID
+                0x00000000       0x20 modbus/functions/mbfuncother.o
+ .text          0x00000000        0x0 modbus/functions/mbutils.o
+ .bss           0x00000000        0x0 modbus/functions/mbutils.o
+ .text.xMBUtilSetBits
+                0x00000000       0x66 modbus/functions/mbutils.o
+ .text.xMBUtilGetBits
+                0x00000000       0x48 modbus/functions/mbutils.o
+ .text.prveMBError2Exception
+                0x00000000       0x14 modbus/functions/mbutils.o
+ .rodata.CSWTCH.6
+                0x00000000        0x8 modbus/functions/mbutils.o
+ .text          0x00000000        0x0 modbus/mb.o
+ .bss           0x00000000        0x0 modbus/mb.o
+ .text.eMBInit  0x00000000       0xae modbus/mb.o
+ .text.eMBRegisterCB
+                0x00000000       0x92 modbus/mb.o
+ .text.eMBClose
+                0x00000000       0x20 modbus/mb.o
+ .text.eMBEnable
+                0x00000000       0x1e modbus/mb.o
+ .text.eMBDisable
+                0x00000000       0x26 modbus/mb.o
+ .text.eMBPoll  0x00000000      0x112 modbus/mb.o
+ .bss.ucMBAddress
+                0x00000000        0x1 modbus/mb.o
+ .bss.pvMBFrameStartCur
+                0x00000000        0x2 modbus/mb.o
+ .bss.pvMBFrameStopCur
+                0x00000000        0x2 modbus/mb.o
+ .bss.peMBFrameSendCur
+                0x00000000        0x2 modbus/mb.o
+ .bss.peMBFrameReceiveCur
+                0x00000000        0x2 modbus/mb.o
+ .bss.pvMBFrameCloseCur
+                0x00000000        0x2 modbus/mb.o
+ .bss.eMBCurrentMode
+                0x00000000        0x1 modbus/mb.o
+ .data.eMBState
+                0x00000000        0x1 modbus/mb.o
+ .data.xFuncHandlers
+                0x00000000       0x30 modbus/mb.o
+ .bss.ucRcvAddress.1847
+                0x00000000        0x1 modbus/mb.o
+ .bss.ucMBFrame.1846
+                0x00000000        0x2 modbus/mb.o
+ .bss.usLength.1849
+                0x00000000        0x2 modbus/mb.o
+ .bss.ucFunctionCode.1848
+                0x00000000        0x1 modbus/mb.o
+ .bss.eException.1850
+                0x00000000        0x1 modbus/mb.o
+ .text          0x00000000        0x0 modbus/port/mbcrc.o
+ .bss           0x00000000        0x0 modbus/port/mbcrc.o
+ .text.usMBCRC16
+                0x00000000       0x38 modbus/port/mbcrc.o
+ .progmem.data.aucCRCHi
+                0x00000000      0x100 modbus/port/mbcrc.o
+ .progmem.data.aucCRCLo
+                0x00000000      0x100 modbus/port/mbcrc.o
+ .text          0x00000000        0x0 modbus/port/portevent.o
+ .bss           0x00000000        0x0 modbus/port/portevent.o
+ .text.xMBPortEventInit
+                0x00000000        0x8 modbus/port/portevent.o
+ .text.xMBPortEventPost
+                0x00000000        0xe modbus/port/portevent.o
+ .text.xMBPortEventGet
+                0x00000000       0x1c modbus/port/portevent.o
+ .bss.xEventInQueue
+                0x00000000        0x1 modbus/port/portevent.o
+ .bss.eQueuedEvent
+                0x00000000        0x1 modbus/port/portevent.o
+ .text          0x00000000        0x0 modbus/port/portserial.o
+ .bss           0x00000000        0x0 modbus/port/portserial.o
+ .text.vMBPortSerialEnable
+                0x00000000       0x22 modbus/port/portserial.o
+ .text.xMBPortSerialInit
+                0x00000000       0xa6 modbus/port/portserial.o
+ .text.xMBPortSerialPutByte
+                0x00000000        0x6 modbus/port/portserial.o
+ .text.xMBPortSerialGetByte
+                0x00000000        0xa modbus/port/portserial.o
+ .text          0x00000000        0x0 modbus/port/porttimer.o
+ .bss           0x00000000        0x0 modbus/port/porttimer.o
+ .text.vMBPortTimersEnable
+                0x00000000       0x22 modbus/port/porttimer.o
+ .text.vMBPortTimersDisable
+                0x00000000       0x14 modbus/port/porttimer.o
+ .text.xMBPortTimersInit
+                0x00000000       0x26 modbus/port/porttimer.o
+ .bss.usTimerOCRADelta
+                0x00000000        0x2 modbus/port/porttimer.o
+ .text          0x00000000        0x0 modbus/rtu/mbcrc.o
+ .bss           0x00000000        0x0 modbus/rtu/mbcrc.o
+ .text          0x00000000        0x0 modbus/rtu/mbrtu.o
+ .bss           0x00000000        0x0 modbus/rtu/mbrtu.o
+ .text.eMBRTUInit
+                0x00000000       0x68 modbus/rtu/mbrtu.o
+ .text.eMBRTUStart
+                0x00000000       0x12 modbus/rtu/mbrtu.o
+ .text.eMBRTUStop
+                0x00000000        0xe modbus/rtu/mbrtu.o
+ .text.eMBRTUReceive
+                0x00000000       0x68 modbus/rtu/mbrtu.o
+ .text.eMBRTUSend
+                0x00000000       0x96 modbus/rtu/mbrtu.o
+ .text.xMBRTUReceiveFSM
+                0x00000000       0x8c modbus/rtu/mbrtu.o
+ .text.xMBRTUTransmitFSM
+                0x00000000       0x70 modbus/rtu/mbrtu.o
+ .text.xMBRTUTimerT35Expired
+                0x00000000       0x38 modbus/rtu/mbrtu.o
+ .bss.usRcvBufferPos
+                0x00000000        0x2 modbus/rtu/mbrtu.o
+ .bss.usSndBufferCount
+                0x00000000        0x2 modbus/rtu/mbrtu.o
+ .bss.eRcvState
+                0x00000000        0x1 modbus/rtu/mbrtu.o
+ .bss.eSndState
+                0x00000000        0x1 modbus/rtu/mbrtu.o
+ .bss.pucSndBufferCur
+                0x00000000        0x2 modbus/rtu/mbrtu.o
+ COMMON         0x00000000      0x100 modbus/rtu/mbrtu.o
+ .text          0x00000000        0x0 modbus/tcp/mbtcp.o
+ .bss           0x00000000        0x0 modbus/tcp/mbtcp.o
+ .text          0x00000000        0x0 music/music.o
+ .bss           0x00000000        0x0 music/music.o
+ .text.play_melody
+                0x00000000        0x2 music/music.o
+ .rodata.tonleiter
+                0x00000000       0x30 music/music.o
+ .rodata.dauer  0x00000000       0x26 music/music.o
+ .rodata.melodie
+                0x00000000       0x26 music/music.o
+ .text          0x00000000        0x0 usart/fifo.o
+ .bss           0x00000000        0x0 usart/fifo.o
+ .text._inline_fifo_get
+                0x00000000       0x28 usart/fifo.o
+ .text.fifo_init
+                0x00000000       0x14 usart/fifo.o
+ .text.fifo_put
+                0x00000000       0x36 usart/fifo.o
+ .text.fifo_get_wait
+                0x00000000        0xa usart/fifo.o
+ .text.fifo_get_nowait
+                0x00000000       0x18 usart/fifo.o
+ .text.fifo_get_item_count
+                0x00000000        0x8 usart/fifo.o
+ .text          0x00000000        0x0 usart/usart.o
+ .bss           0x00000000        0x0 usart/usart.o
+ .text          0x00000000        0x0 usart/usart_hlf.o
+ .bss           0x00000000        0x0 usart/usart_hlf.o
+ .text.usart_puti_help
+                0x00000000       0x90 usart/usart_hlf.o
+ .text.usart_puti
+                0x00000000       0xa4 usart/usart_hlf.o
+ .text.usart_puth_help
+                0x00000000       0x3a usart/usart_hlf.o
+ .text.usart_puth
+                0x00000000       0x40 usart/usart_hlf.o
+ .text          0x00000000        0x0 usart/usart_tools.o
+ .bss           0x00000000        0x0 usart/usart_tools.o
+ .text.BaudrateRegisterCalc
+                0x00000000       0x52 usart/usart_tools.o
+ .text.BaudrateRegisterCalcOptimalValue
+                0x00000000      0x154 usart/usart_tools.o
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.div
+                0x00000000       0x44 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.div
+                0x00000000       0x36 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.mul
+                0x00000000       0x18 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.div
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .text.avr-libc
+                0x00000000       0x12 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00002000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+LOAD adc/adc.o
+LOAD ateval_test/atevaltest.o
+LOAD eHaJo_EvalBoard_Demo.o
+LOAD gpio/gpio.o
+LOAD i2ceeprom/i2ceeprom.o
+LOAD i2c/twimaster.o
+LOAD modbus/ascii/mbascii.o
+LOAD modbus/functions/mbfunccoils.o
+LOAD modbus/functions/mbfuncdiag.o
+LOAD modbus/functions/mbfuncdisc.o
+LOAD modbus/functions/mbfuncholding.o
+LOAD modbus/functions/mbfuncinput.o
+LOAD modbus/functions/mbfuncother.o
+LOAD modbus/functions/mbutils.o
+LOAD modbus/mb.o
+LOAD modbus/port/mbcrc.o
+LOAD modbus/port/portevent.o
+LOAD modbus/port/portserial.o
+LOAD modbus/port/porttimer.o
+LOAD modbus/rtu/mbcrc.o
+LOAD modbus/rtu/mbrtu.o
+LOAD modbus/tcp/mbtcp.o
+LOAD music/music.o
+LOAD usart/fifo.o
+LOAD usart/usart.o
+LOAD usart/usart_hlf.o
+LOAD usart/usart_tools.o
+START GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libm.a
+END GROUP
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a
+LOAD c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000      0xeb6
+ *(.vectors)
+ .vectors       0x00000000       0x26 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data.__c.1844
+                0x00000026        0x3 ateval_test/atevaltest.o
+ .progmem.data.__c.1861
+                0x00000029        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1891
+                0x0000002b       0x4b ateval_test/atevaltest.o
+ .progmem.data.__c.1895
+                0x00000076       0x2a ateval_test/atevaltest.o
+ .progmem.data.__c.1902
+                0x000000a0       0x55 ateval_test/atevaltest.o
+ .progmem.data.__c.1909
+                0x000000f5       0x29 ateval_test/atevaltest.o
+ .progmem.data.__c.1911
+                0x0000011e        0x3 ateval_test/atevaltest.o
+ .progmem.data.__c.1913
+                0x00000121       0x3f ateval_test/atevaltest.o
+ .progmem.data.__c.1915
+                0x00000160       0x38 ateval_test/atevaltest.o
+ .progmem.data.__c.1938
+                0x00000198       0x45 ateval_test/atevaltest.o
+ .progmem.data.__c.1940
+                0x000001dd       0x39 ateval_test/atevaltest.o
+ .progmem.data.__c.1947
+                0x00000216       0x26 ateval_test/atevaltest.o
+ .progmem.data.__c.1949
+                0x0000023c       0x30 ateval_test/atevaltest.o
+ .progmem.data.__c.1951
+                0x0000026c       0x4d ateval_test/atevaltest.o
+ .progmem.data.__c.1955
+                0x000002b9       0x3f ateval_test/atevaltest.o
+ .progmem.data.__c.1957
+                0x000002f8       0x31 ateval_test/atevaltest.o
+ .progmem.data.__c.1959
+                0x00000329       0x44 ateval_test/atevaltest.o
+ .progmem.data.__c.1971
+                0x0000036d        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1973
+                0x0000036f        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1978
+                0x00000371        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1980
+                0x00000373        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1985
+                0x00000375        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1987
+                0x00000377        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1989
+                0x00000379        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1991
+                0x0000037b        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1996
+                0x0000037d        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.1998
+                0x0000037f        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2003
+                0x00000381        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2005
+                0x00000383        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2009
+                0x00000385        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2013
+                0x00000387        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2017
+                0x00000389        0x2 ateval_test/atevaltest.o
+ .progmem.data.__c.2021
+                0x0000038b        0x7 ateval_test/atevaltest.o
+ .progmem.data.__c.2025
+                0x00000392        0x7 ateval_test/atevaltest.o
+ .progmem.data.__c.2029
+                0x00000399        0x9 ateval_test/atevaltest.o
+ .progmem.data.__c.2033
+                0x000003a2        0x4 ateval_test/atevaltest.o
+ .progmem.data.__c.2045
+                0x000003a6       0x1e ateval_test/atevaltest.o
+ .progmem.data.__c.2047
+                0x000003c4       0x13 ateval_test/atevaltest.o
+ .progmem.data.__c.2049
+                0x000003d7       0x15 ateval_test/atevaltest.o
+                0x000003ec                . = ALIGN (0x2)
+                0x000003ec                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000003ec        0x0 linker stubs
+ *(.trampolines*)
+                0x000003ec                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000003ec                __ctors_start = .
+ *(.ctors)
+                0x000003ec                __ctors_end = .
+                0x000003ec                __dtors_start = .
+ *(.dtors)
+                0x000003ec                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000003ec        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+                0x000003ec                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000003ec        0xc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000003f8       0x16 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+                0x000003f8                __do_copy_data
+ .init4         0x0000040e       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+                0x0000040e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000041e        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+ *(.init9)
+ *(.text)
+ .text          0x00000422        0x2 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+                0x00000422                __vector_1
+                0x00000422                __bad_interrupt
+                0x00000422                __vector_3
+                0x00000422                __vector_13
+                0x00000422                __vector_17
+                0x00000422                __vector_5
+                0x00000422                __vector_4
+                0x00000422                __vector_9
+                0x00000422                __vector_2
+                0x00000422                __vector_15
+                0x00000422                __vector_8
+                0x00000422                __vector_14
+                0x00000422                __vector_10
+                0x00000422                __vector_16
+                0x00000422                __vector_18
+                0x00000424                . = ALIGN (0x2)
+ *(.text.*)
+ .text.adc_init
+                0x00000424       0x1e adc/adc.o
+                0x00000424                adc_init
+ .text.Get_ADC_Value
+                0x00000442       0x1c adc/adc.o
+                0x00000442                Get_ADC_Value
+ .text.read_from_uart
+                0x0000045e        0x8 ateval_test/atevaltest.o
+                0x0000045e                read_from_uart
+ .text.wait_for_enter
+                0x00000466        0xe ateval_test/atevaltest.o
+                0x00000466                wait_for_enter
+ .text.wait_for_key
+                0x00000474       0x14 ateval_test/atevaltest.o
+                0x00000474                wait_for_key
+ .text.ja_oder_nein
+                0x00000488       0x20 ateval_test/atevaltest.o
+                0x00000488                ja_oder_nein
+ .text.print_new_line
+                0x000004a8        0x6 ateval_test/atevaltest.o
+                0x000004a8                print_new_line
+ .text.print_full_line_error
+                0x000004ae       0x10 ateval_test/atevaltest.o
+                0x000004ae                print_full_line_error
+ .text.print_weiter_mit_enter_char
+                0x000004be       0x2c ateval_test/atevaltest.o
+                0x000004be                print_weiter_mit_enter_char
+ .text.print_weiter_mit_enter_error
+                0x000004ea        0x4 ateval_test/atevaltest.o
+                0x000004ea                print_weiter_mit_enter_error
+ .text.print_weiter_mit_enter
+                0x000004ee        0x4 ateval_test/atevaltest.o
+                0x000004ee                print_weiter_mit_enter
+ .text.print_empty_line_char
+                0x000004f2       0x1c ateval_test/atevaltest.o
+                0x000004f2                print_empty_line_char
+ .text.print_empty_line_error
+                0x0000050e        0x4 ateval_test/atevaltest.o
+                0x0000050e                print_empty_line_error
+ .text.print_empty_line
+                0x00000512        0x4 ateval_test/atevaltest.o
+                0x00000512                print_empty_line
+ .text.print_full_line
+                0x00000516       0x10 ateval_test/atevaltest.o
+                0x00000516                print_full_line
+ .text.print_empty_lines
+                0x00000526        0x6 ateval_test/atevaltest.o
+                0x00000526                print_empty_lines
+ .text.print_okay
+                0x0000052c        0x6 ateval_test/atevaltest.o
+                0x0000052c                print_okay
+ .text.print_fehler_bei_Taste
+                0x00000532        0x6 ateval_test/atevaltest.o
+                0x00000532                print_fehler_bei_Taste
+ .text.print_text_to_line_end
+                0x00000538       0x10 ateval_test/atevaltest.o
+                0x00000538                print_text_to_line_end
+ .text.print_text_to_line_start
+                0x00000548        0x8 ateval_test/atevaltest.o
+                0x00000548                print_text_to_line_start
+ .text.fill_line
+                0x00000550       0x32 ateval_test/atevaltest.o
+                0x00000550                fill_line
+ .text.print_text
+                0x00000582       0x96 ateval_test/atevaltest.o
+                0x00000582                print_text
+ .text.print_text_to_line
+                0x00000618       0x3e ateval_test/atevaltest.o
+                0x00000618                print_text_to_line
+ .text.print_ehajo_danke
+                0x00000656        0xa ateval_test/atevaltest.o
+                0x00000656                print_ehajo_danke
+ .text.print_pruefen_sie_die_Platine
+                0x00000660        0xa ateval_test/atevaltest.o
+                0x00000660                print_pruefen_sie_die_Platine
+ .text.print_potentiometer
+                0x0000066a        0x6 ateval_test/atevaltest.o
+                0x0000066a                print_potentiometer
+ .text.Test_Leds
+                0x00000670       0x86 ateval_test/atevaltest.o
+                0x00000670                Test_Leds
+ .text.Test_Taster
+                0x000006f6      0x104 ateval_test/atevaltest.o
+                0x000006f6                Test_Taster
+ .text.ateval_speaktest
+                0x000007fa       0x5e ateval_test/atevaltest.o
+                0x000007fa                ateval_speaktest
+ .text.adc_potentiometercheck
+                0x00000858      0x1cc ateval_test/atevaltest.o
+                0x00000858                adc_potentiometercheck
+ .text.ateval_adctest
+                0x00000a24       0x54 ateval_test/atevaltest.o
+                0x00000a24                ateval_adctest
+ .text.print_eins
+                0x00000a78        0xa ateval_test/atevaltest.o
+                0x00000a78                print_eins
+ .text.print_zwei
+                0x00000a82        0xa ateval_test/atevaltest.o
+                0x00000a82                print_zwei
+ .text.print_drei
+                0x00000a8c        0xa ateval_test/atevaltest.o
+                0x00000a8c                print_drei
+ .text.print_okay_zf
+                0x00000a96        0xa ateval_test/atevaltest.o
+                0x00000a96                print_okay_zf
+ .text.print_taster
+                0x00000aa0        0xa ateval_test/atevaltest.o
+                0x00000aa0                print_taster
+ .text.print_fehler
+                0x00000aaa        0xa ateval_test/atevaltest.o
+                0x00000aaa                print_fehler
+ .text.print_led
+                0x00000ab4        0xa ateval_test/atevaltest.o
+                0x00000ab4                print_led
+ .text.Zusammenfassung
+                0x00000abe      0x11a ateval_test/atevaltest.o
+                0x00000abe                Zusammenfassung
+ .text.ateval_consoletest
+                0x00000bd8       0x2e ateval_test/atevaltest.o
+                0x00000bd8                ateval_consoletest
+ .text.startup.main
+                0x00000c06       0x34 eHaJo_EvalBoard_Demo.o
+                0x00000c06                main
+ .text.__vector_default
+                0x00000c3a       0x14 eHaJo_EvalBoard_Demo.o
+                0x00000c3a                __vector_default
+ .text.GPIO_Init
+                0x00000c4e       0x12 gpio/gpio.o
+                0x00000c4e                GPIO_Init
+ .text.Set_Led1
+                0x00000c60        0xc gpio/gpio.o
+                0x00000c60                Set_Led1
+ .text.Set_Led2
+                0x00000c6c        0xc gpio/gpio.o
+                0x00000c6c                Set_Led2
+ .text.Get_Taster1
+                0x00000c78       0x12 gpio/gpio.o
+                0x00000c78                Get_Taster1
+ .text.Get_Taster2
+                0x00000c8a       0x12 gpio/gpio.o
+                0x00000c8a                Get_Taster2
+ .text.Get_Taster3
+                0x00000c9c       0x12 gpio/gpio.o
+                0x00000c9c                Get_Taster3
+ .text.__vector_12
+                0x00000cae       0x4e modbus/port/portserial.o
+                0x00000cae                __vector_12
+ .text.__vector_6
+                0x00000cfc       0x4e modbus/port/porttimer.o
+                0x00000cfc                __vector_6
+ .text.__vector_7
+                0x00000d4a       0x1e music/music.o
+                0x00000d4a                __vector_7
+ .text.play_tone
+                0x00000d68       0x1c music/music.o
+                0x00000d68                play_tone
+ .text.usart_putc
+                0x00000d84        0x8 usart/usart.o
+                0x00000d84                usart_putc
+ .text.Set_RX_Hook
+                0x00000d8c        0xc usart/usart.o
+                0x00000d8c                Set_RX_Hook
+ .text.Delete_RX_Hook
+                0x00000d98        0xc usart/usart.o
+                0x00000d98                Delete_RX_Hook
+ .text.__vector_11
+                0x00000da4       0x56 usart/usart.o
+                0x00000da4                __vector_11
+ .text.usart_init
+                0x00000dfa       0x5e usart/usart.o
+                0x00000dfa                usart_init
+ .text.usart_puts
+                0x00000e58       0x16 usart/usart_hlf.o
+                0x00000e58                usart_puts
+ .text.usart_pute
+                0x00000e6e       0x1a usart/usart_hlf.o
+                0x00000e6e                usart_pute
+ .text.usart_putp
+                0x00000e88       0x1a usart/usart_hlf.o
+                0x00000e88                usart_putp
+ .text.avr-libc
+                0x00000ea2       0x10 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+                0x00000ea2                __eerd_byte_m8a
+                0x00000eb2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000eb2        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+                0x00000eb2                _exit
+                0x00000eb2                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000eb2        0x4 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000eb6                _etext = .
+
+.data           0x00800060       0x10 load address 0x00000eb6
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+ .data          0x00800060        0x0 adc/adc.o
+ .data          0x00800060        0x0 ateval_test/atevaltest.o
+ .data          0x00800060        0x0 eHaJo_EvalBoard_Demo.o
+ .data          0x00800060        0x0 gpio/gpio.o
+ .data          0x00800060        0x0 i2ceeprom/i2ceeprom.o
+ .data          0x00800060        0x0 i2c/twimaster.o
+ .data          0x00800060        0x0 modbus/ascii/mbascii.o
+ .data          0x00800060        0x0 modbus/functions/mbfunccoils.o
+ .data          0x00800060        0x0 modbus/functions/mbfuncdiag.o
+ .data          0x00800060        0x0 modbus/functions/mbfuncdisc.o
+ .data          0x00800060        0x0 modbus/functions/mbfuncholding.o
+ .data          0x00800060        0x0 modbus/functions/mbfuncinput.o
+ .data          0x00800060        0x0 modbus/functions/mbfuncother.o
+ .data          0x00800060        0x0 modbus/functions/mbutils.o
+ .data          0x00800060        0x0 modbus/mb.o
+ .data          0x00800060        0x0 modbus/port/mbcrc.o
+ .data          0x00800060        0x0 modbus/port/portevent.o
+ .data          0x00800060        0x0 modbus/port/portserial.o
+ .data          0x00800060        0x0 modbus/port/porttimer.o
+ .data          0x00800060        0x0 modbus/rtu/mbcrc.o
+ .data          0x00800060        0x0 modbus/rtu/mbrtu.o
+ .data          0x00800060        0x0 modbus/tcp/mbtcp.o
+ .data          0x00800060        0x0 music/music.o
+ .data          0x00800060        0x0 usart/fifo.o
+ .data          0x00800060        0x0 usart/usart.o
+ .data          0x00800060        0x0 usart/usart_hlf.o
+ .data          0x00800060        0x0 usart/usart_tools.o
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_udivmodsi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_divmodsi4.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/avr4\libgcc.a(_umulhisi3.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+ .data          0x00800060        0x0 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+ *(.data*)
+ .data.speaker_okay
+                0x00800060        0x1 ateval_test/atevaltest.o
+                0x00800060                speaker_okay
+ .data.poti2_okay
+                0x00800061        0x1 ateval_test/atevaltest.o
+                0x00800061                poti2_okay
+ .data.poti1_okay
+                0x00800062        0x1 ateval_test/atevaltest.o
+                0x00800062                poti1_okay
+ .data.led2_okay
+                0x00800063        0x1 ateval_test/atevaltest.o
+                0x00800063                led2_okay
+ .data.led1_okay
+                0x00800064        0x1 ateval_test/atevaltest.o
+                0x00800064                led1_okay
+ .data.tater3_okay
+                0x00800065        0x1 ateval_test/atevaltest.o
+                0x00800065                tater3_okay
+ .data.tater2_okay
+                0x00800066        0x1 ateval_test/atevaltest.o
+                0x00800066                tater2_okay
+ .data.tater1_okay
+                0x00800067        0x1 ateval_test/atevaltest.o
+                0x00800067                tater1_okay
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800068        0x6 ateval_test/atevaltest.o
+ .rodata.CSWTCH.8
+                0x0080006e        0x2 usart/usart.o
+ *(.gnu.linkonce.d*)
+                0x00800070                . = ALIGN (0x2)
+                0x00800070                _edata = .
+                0x00800070                PROVIDE (__data_end, .)
+
+.bss            0x00800070        0xe
+                0x00800070                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.recived_char
+                0x00800070        0x1 ateval_test/atevaltest.o
+                0x00800070                recived_char
+ .bss.zeilenposition
+                0x00800071        0x1 ateval_test/atevaltest.o
+                0x00800071                zeilenposition
+ *(COMMON)
+ COMMON         0x00800072        0xa modbus/mb.o
+                0x00800072                pxMBFrameCBTransmitterEmpty
+                0x00800074                pxMBPortCBTimerExpired
+                0x00800076                pxMBFrameCBByteReceived
+                0x00800078                pxMBFrameCBTransmitFSMCur
+                0x0080007a                pxMBFrameCBReceiveFSMCur
+ COMMON         0x0080007c        0x2 usart/usart.o
+                0x0080007c                fptr
+                0x0080007e                PROVIDE (__bss_end, .)
+                0x00000eb6                __data_load_start = LOADADDR (.data)
+                0x00000ec6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080007e        0x0
+                0x0080007e                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080007e                PROVIDE (__noinit_end, .)
+                0x0080007e                _end = .
+                0x0080007e                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000      0x1eb
+ *(.eeprom*)
+ .eeprom        0x00810000      0x1eb ateval_test/atevaltest.o
+                0x00810000                string16
+                0x00810007                string15
+                0x0081000d                string14
+                0x00810019                string13
+                0x0081002f                string12
+                0x00810053                string31
+                0x00810093                string11
+                0x008100bd                string24
+                0x008100fb                string23
+                0x00810127                string22
+                0x0081012b                string21
+                0x0081012f                string20
+                0x00810133                string10
+                0x0081014a                string9
+                0x00810161                string8
+                0x00810178                string7
+                0x00810194                string6
+                0x008101b0                string5
+                0x008101be                string3
+                0x008101c0                string2
+                0x008101d2                string1
+                0x008101da                string4
+                0x008101eb                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x00000000      0x7e0
+ *(.stab)
+ .stab          0x00000000      0x6cc c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+ .stab          0x000006cc       0x84 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(memcpy.o)
+                                 0x90 (size before relaxing)
+ .stab          0x00000750       0x90 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8a.o)
+                                 0x9c (size before relaxing)
+
+.stabstr        0x00000000      0x180
+ *(.stabstr)
+ .stabstr       0x00000000      0x180 c:/program files (x86)/atmel/atmel toolchain/avr8 gcc/native/3.4.2.1002/avr8-gnu-toolchain/bin/../lib/gcc/avr/4.7.2/../../../../avr/lib/avr4/crtm8a.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x2f
+ *(.comment)
+ .comment       0x00000000       0x2f adc/adc.o
+                                 0x30 (size before relaxing)
+ .comment       0x00000000       0x30 ateval_test/atevaltest.o
+ .comment       0x00000000       0x30 eHaJo_EvalBoard_Demo.o
+ .comment       0x00000000       0x30 gpio/gpio.o
+ .comment       0x00000000       0x30 i2ceeprom/i2ceeprom.o
+ .comment       0x00000000       0x30 i2c/twimaster.o
+ .comment       0x00000000       0x30 modbus/ascii/mbascii.o
+ .comment       0x00000000       0x30 modbus/functions/mbfunccoils.o
+ .comment       0x00000000       0x30 modbus/functions/mbfuncdiag.o
+ .comment       0x00000000       0x30 modbus/functions/mbfuncdisc.o
+ .comment       0x00000000       0x30 modbus/functions/mbfuncholding.o
+ .comment       0x00000000       0x30 modbus/functions/mbfuncinput.o
+ .comment       0x00000000       0x30 modbus/functions/mbfuncother.o
+ .comment       0x00000000       0x30 modbus/functions/mbutils.o
+ .comment       0x00000000       0x30 modbus/mb.o
+ .comment       0x00000000       0x30 modbus/port/mbcrc.o
+ .comment       0x00000000       0x30 modbus/port/portevent.o
+ .comment       0x00000000       0x30 modbus/port/portserial.o
+ .comment       0x00000000       0x30 modbus/port/porttimer.o
+ .comment       0x00000000       0x30 modbus/rtu/mbcrc.o
+ .comment       0x00000000       0x30 modbus/rtu/mbrtu.o
+ .comment       0x00000000       0x30 modbus/tcp/mbtcp.o
+ .comment       0x00000000       0x30 music/music.o
+ .comment       0x00000000       0x30 usart/fifo.o
+ .comment       0x00000000       0x30 usart/usart.o
+ .comment       0x00000000       0x30 usart/usart_hlf.o
+ .comment       0x00000000       0x30 usart/usart_tools.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x668
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x28 adc/adc.o
+ .debug_aranges
+                0x00000028      0x150 ateval_test/atevaltest.o
+ .debug_aranges
+                0x00000178       0x28 eHaJo_EvalBoard_Demo.o
+ .debug_aranges
+                0x000001a0       0x68 gpio/gpio.o
+ .debug_aranges
+                0x00000208       0x50 i2ceeprom/i2ceeprom.o
+ .debug_aranges
+                0x00000258       0x58 i2c/twimaster.o
+ .debug_aranges
+                0x000002b0       0x18 modbus/ascii/mbascii.o
+ .debug_aranges
+                0x000002c8       0x18 modbus/functions/mbfunccoils.o
+ .debug_aranges
+                0x000002e0       0x18 modbus/functions/mbfuncdisc.o
+ .debug_aranges
+                0x000002f8       0x30 modbus/functions/mbfuncholding.o
+ .debug_aranges
+                0x00000328       0x20 modbus/functions/mbfuncinput.o
+ .debug_aranges
+                0x00000348       0x28 modbus/functions/mbfuncother.o
+ .debug_aranges
+                0x00000370       0x30 modbus/functions/mbutils.o
+ .debug_aranges
+                0x000003a0       0x48 modbus/mb.o
+ .debug_aranges
+                0x000003e8       0x20 modbus/port/mbcrc.o
+ .debug_aranges
+                0x00000408       0x30 modbus/port/portevent.o
+ .debug_aranges
+                0x00000438       0x40 modbus/port/portserial.o
+ .debug_aranges
+                0x00000478       0x38 modbus/port/porttimer.o
+ .debug_aranges
+                0x000004b0       0x18 modbus/rtu/mbcrc.o
+ .debug_aranges
+                0x000004c8       0x58 modbus/rtu/mbrtu.o
+ .debug_aranges
+                0x00000520       0x18 modbus/tcp/mbtcp.o
+ .debug_aranges
+                0x00000538       0x30 music/music.o
+ .debug_aranges
+                0x00000568       0x48 usart/fifo.o
+ .debug_aranges
+                0x000005b0       0x40 usart/usart.o
+ .debug_aranges
+                0x000005f0       0x50 usart/usart_hlf.o
+ .debug_aranges
+                0x00000640       0x28 usart/usart_tools.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x5961
+ *(.debug_info)
+ .debug_info    0x00000000       0xb8 adc/adc.o
+ .debug_info    0x000000b8     0x1e1f ateval_test/atevaltest.o
+ .debug_info    0x00001ed7      0x222 eHaJo_EvalBoard_Demo.o
+ .debug_info    0x000020f9      0x193 gpio/gpio.o
+ .debug_info    0x0000228c      0x549 i2ceeprom/i2ceeprom.o
+ .debug_info    0x000027d5      0x1be i2c/twimaster.o
+ .debug_info    0x00002993       0x6b modbus/ascii/mbascii.o
+ .debug_info    0x000029fe       0x6b modbus/functions/mbfunccoils.o
+ .debug_info    0x00002a69       0x6b modbus/functions/mbfuncdisc.o
+ .debug_info    0x00002ad4      0x39a modbus/functions/mbfuncholding.o
+ .debug_info    0x00002e6e      0x21d modbus/functions/mbfuncinput.o
+ .debug_info    0x0000308b      0x2ac modbus/functions/mbfuncother.o
+ .debug_info    0x00003337      0x289 modbus/functions/mbutils.o
+ .debug_info    0x000035c0      0x6f7 modbus/mb.o
+ .debug_info    0x00003cb7      0x1a6 modbus/port/mbcrc.o
+ .debug_info    0x00003e5d      0x15b modbus/port/portevent.o
+ .debug_info    0x00003fb8      0x389 modbus/port/portserial.o
+ .debug_info    0x00004341      0x146 modbus/port/porttimer.o
+ .debug_info    0x00004487       0x6b modbus/rtu/mbcrc.o
+ .debug_info    0x000044f2      0x674 modbus/rtu/mbrtu.o
+ .debug_info    0x00004b66       0x6b modbus/tcp/mbtcp.o
+ .debug_info    0x00004bd1      0x1d7 music/music.o
+ .debug_info    0x00004da8      0x30a usart/fifo.o
+ .debug_info    0x000050b2      0x24e usart/usart.o
+ .debug_info    0x00005300      0x406 usart/usart_hlf.o
+ .debug_info    0x00005706      0x25b usart/usart_tools.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000     0x1a03
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0x7a adc/adc.o
+ .debug_abbrev  0x0000007a      0x320 ateval_test/atevaltest.o
+ .debug_abbrev  0x0000039a      0x127 eHaJo_EvalBoard_Demo.o
+ .debug_abbrev  0x000004c1       0x94 gpio/gpio.o
+ .debug_abbrev  0x00000555      0x120 i2ceeprom/i2ceeprom.o
+ .debug_abbrev  0x00000675       0xe8 i2c/twimaster.o
+ .debug_abbrev  0x0000075d       0x26 modbus/ascii/mbascii.o
+ .debug_abbrev  0x00000783       0x26 modbus/functions/mbfunccoils.o
+ .debug_abbrev  0x000007a9       0x26 modbus/functions/mbfuncdisc.o
+ .debug_abbrev  0x000007cf      0x104 modbus/functions/mbfuncholding.o
+ .debug_abbrev  0x000008d3       0xe8 modbus/functions/mbfuncinput.o
+ .debug_abbrev  0x000009bb       0xf7 modbus/functions/mbfuncother.o
+ .debug_abbrev  0x00000ab2       0xf1 modbus/functions/mbutils.o
+ .debug_abbrev  0x00000ba3      0x21b modbus/mb.o
+ .debug_abbrev  0x00000dbe       0xc5 modbus/port/mbcrc.o
+ .debug_abbrev  0x00000e83       0xbb modbus/port/portevent.o
+ .debug_abbrev  0x00000f3e      0x1a0 modbus/port/portserial.o
+ .debug_abbrev  0x000010de       0xd1 modbus/port/porttimer.o
+ .debug_abbrev  0x000011af       0x26 modbus/rtu/mbcrc.o
+ .debug_abbrev  0x000011d5      0x1a8 modbus/rtu/mbrtu.o
+ .debug_abbrev  0x0000137d       0x26 modbus/tcp/mbtcp.o
+ .debug_abbrev  0x000013a3      0x137 music/music.o
+ .debug_abbrev  0x000014da      0x1b3 usart/fifo.o
+ .debug_abbrev  0x0000168d      0x14b usart/usart.o
+ .debug_abbrev  0x000017d8      0x13e usart/usart_hlf.o
+ .debug_abbrev  0x00001916       0xed usart/usart_tools.o
+
+.debug_line     0x00000000     0x230f
+ *(.debug_line)
+ .debug_line    0x00000000       0xf8 adc/adc.o
+ .debug_line    0x000000f8      0x7a6 ateval_test/atevaltest.o
+ .debug_line    0x0000089e      0x15b eHaJo_EvalBoard_Demo.o
+ .debug_line    0x000009f9      0x177 gpio/gpio.o
+ .debug_line    0x00000b70      0x1b4 i2ceeprom/i2ceeprom.o
+ .debug_line    0x00000d24      0x1c2 i2c/twimaster.o
+ .debug_line    0x00000ee6       0x1a modbus/ascii/mbascii.o
+ .debug_line    0x00000f00       0x1a modbus/functions/mbfunccoils.o
+ .debug_line    0x00000f1a        0x0 modbus/functions/mbfuncdiag.o
+ .debug_line    0x00000f1a       0x1a modbus/functions/mbfuncdisc.o
+ .debug_line    0x00000f34      0x11a modbus/functions/mbfuncholding.o
+ .debug_line    0x0000104e       0xcb modbus/functions/mbfuncinput.o
+ .debug_line    0x00001119      0x15b modbus/functions/mbfuncother.o
+ .debug_line    0x00001274       0xeb modbus/functions/mbutils.o
+ .debug_line    0x0000135f      0x17e modbus/mb.o
+ .debug_line    0x000014dd       0xf4 modbus/port/mbcrc.o
+ .debug_line    0x000015d1       0xc6 modbus/port/portevent.o
+ .debug_line    0x00001697      0x197 modbus/port/portserial.o
+ .debug_line    0x0000182e      0x14e modbus/port/porttimer.o
+ .debug_line    0x0000197c       0x1a modbus/rtu/mbcrc.o
+ .debug_line    0x00001996      0x18d modbus/rtu/mbrtu.o
+ .debug_line    0x00001b23       0x1a modbus/tcp/mbtcp.o
+ .debug_line    0x00001b3d      0x1ad music/music.o
+ .debug_line    0x00001cea      0x165 usart/fifo.o
+ .debug_line    0x00001e4f      0x14e usart/usart.o
+ .debug_line    0x00001f9d      0x251 usart/usart_hlf.o
+ .debug_line    0x000021ee      0x121 usart/usart_tools.o
+
+.debug_frame    0x00000000      0xe14
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x34 adc/adc.o
+ .debug_frame   0x00000034      0x328 ateval_test/atevaltest.o
+ .debug_frame   0x0000035c       0x50 eHaJo_EvalBoard_Demo.o
+ .debug_frame   0x000003ac       0xb4 gpio/gpio.o
+ .debug_frame   0x00000460      0x150 i2ceeprom/i2ceeprom.o
+ .debug_frame   0x000005b0       0x94 i2c/twimaster.o
+ .debug_frame   0x00000644       0x64 modbus/functions/mbfuncholding.o
+ .debug_frame   0x000006a8       0x38 modbus/functions/mbfuncinput.o
+ .debug_frame   0x000006e0       0x54 modbus/functions/mbfuncother.o
+ .debug_frame   0x00000734       0x50 modbus/functions/mbutils.o
+ .debug_frame   0x00000784       0x98 modbus/mb.o
+ .debug_frame   0x0000081c       0x24 modbus/port/mbcrc.o
+ .debug_frame   0x00000840       0x44 modbus/port/portevent.o
+ .debug_frame   0x00000884       0xdc modbus/port/portserial.o
+ .debug_frame   0x00000960       0x9c modbus/port/porttimer.o
+ .debug_frame   0x000009fc      0x100 modbus/rtu/mbrtu.o
+ .debug_frame   0x00000afc       0x54 music/music.o
+ .debug_frame   0x00000b50       0x74 usart/fifo.o
+ .debug_frame   0x00000bc4       0xac usart/usart.o
+ .debug_frame   0x00000c70       0xf4 usart/usart_hlf.o
+ .debug_frame   0x00000d64       0xb0 usart/usart_tools.o
+
+.debug_str      0x00000000     0x1681
+ *(.debug_str)
+ .debug_str     0x00000000       0xcd adc/adc.o
+                                0x109 (size before relaxing)
+ .debug_str     0x000000cd      0x5be ateval_test/atevaltest.o
+                                0x655 (size before relaxing)
+ .debug_str     0x0000068b       0xf0 eHaJo_EvalBoard_Demo.o
+                                0x1e8 (size before relaxing)
+ .debug_str     0x0000077b       0x42 gpio/gpio.o
+                                0x156 (size before relaxing)
+ .debug_str     0x000007bd      0x175 i2ceeprom/i2ceeprom.o
+                                0x257 (size before relaxing)
+ .debug_str     0x00000932       0x21 i2c/twimaster.o
+                                0x154 (size before relaxing)
+ .debug_str     0x00000953       0x37 modbus/ascii/mbascii.o
+                                0x108 (size before relaxing)
+ .debug_str     0x0000098a       0x22 modbus/functions/mbfunccoils.o
+                                0x110 (size before relaxing)
+ .debug_str     0x000009ac       0x21 modbus/functions/mbfuncdisc.o
+                                0x10f (size before relaxing)
+ .debug_str     0x000009cd      0x280 modbus/functions/mbfuncholding.o
+                                0x36e (size before relaxing)
+ .debug_str     0x00000c4d       0x49 modbus/functions/mbfuncinput.o
+                                0x2f0 (size before relaxing)
+ .debug_str     0x00000c96       0xa6 modbus/functions/mbfuncother.o
+                                0x311 (size before relaxing)
+ .debug_str     0x00000d3c       0x9e modbus/functions/mbutils.o
+                                0x307 (size before relaxing)
+ .debug_str     0x00000dda      0x31b modbus/mb.o
+                                0x5a5 (size before relaxing)
+ .debug_str     0x000010f5       0x3a modbus/port/mbcrc.o
+                                0x180 (size before relaxing)
+ .debug_str     0x0000112f       0x45 modbus/port/portevent.o
+                                0x1b2 (size before relaxing)
+ .debug_str     0x00001174       0xac modbus/port/portserial.o
+                                0x2f6 (size before relaxing)
+ .debug_str     0x00001220       0x85 modbus/port/porttimer.o
+                                0x1a7 (size before relaxing)
+ .debug_str     0x000012a5       0x16 modbus/rtu/mbcrc.o
+                                0x104 (size before relaxing)
+ .debug_str     0x000012bb      0x182 modbus/rtu/mbrtu.o
+                                0x461 (size before relaxing)
+ .debug_str     0x0000143d       0x16 modbus/tcp/mbtcp.o
+                                0x104 (size before relaxing)
+ .debug_str     0x00001453       0x40 music/music.o
+                                0x183 (size before relaxing)
+ .debug_str     0x00001493       0xa1 usart/fifo.o
+                                0x18e (size before relaxing)
+ .debug_str     0x00001534       0x3a usart/usart.o
+                                0x1d7 (size before relaxing)
+ .debug_str     0x0000156e       0x7b usart/usart_hlf.o
+                                0x1bb (size before relaxing)
+ .debug_str     0x000015e9       0x98 usart/usart_tools.o
+                                0x213 (size before relaxing)
+
+.debug_loc      0x00000000     0x36d3
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x3d adc/adc.o
+ .debug_loc     0x0000003d      0x972 ateval_test/atevaltest.o
+ .debug_loc     0x000009af       0x77 eHaJo_EvalBoard_Demo.o
+ .debug_loc     0x00000a26      0x771 i2ceeprom/i2ceeprom.o
+ .debug_loc     0x00001197       0xe2 i2c/twimaster.o
+ .debug_loc     0x00001279      0x4cf modbus/functions/mbfuncholding.o
+ .debug_loc     0x00001748      0x1fc modbus/functions/mbfuncinput.o
+ .debug_loc     0x00001944      0x24e modbus/functions/mbfuncother.o
+ .debug_loc     0x00001b92      0x2b0 modbus/functions/mbutils.o
+ .debug_loc     0x00001e42      0x3c9 modbus/mb.o
+ .debug_loc     0x0000220b      0x13a modbus/port/mbcrc.o
+ .debug_loc     0x00002345       0x9f modbus/port/portevent.o
+ .debug_loc     0x000023e4      0x27e modbus/port/portserial.o
+ .debug_loc     0x00002662       0xf1 modbus/port/porttimer.o
+ .debug_loc     0x00002753      0x51a modbus/rtu/mbrtu.o
+ .debug_loc     0x00002c6d       0x50 music/music.o
+ .debug_loc     0x00002cbd      0x1a3 usart/fifo.o
+ .debug_loc     0x00002e60      0x15a usart/usart.o
+ .debug_loc     0x00002fba      0x35e usart/usart_hlf.o
+ .debug_loc     0x00003318      0x3bb usart/usart_tools.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x4a0
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0x18 adc/adc.o
+ .debug_ranges  0x00000018      0x140 ateval_test/atevaltest.o
+ .debug_ranges  0x00000158       0x18 eHaJo_EvalBoard_Demo.o
+ .debug_ranges  0x00000170       0x58 gpio/gpio.o
+ .debug_ranges  0x000001c8       0x40 i2ceeprom/i2ceeprom.o
+ .debug_ranges  0x00000208       0x48 i2c/twimaster.o
+ .debug_ranges  0x00000250       0x20 modbus/functions/mbfuncholding.o
+ .debug_ranges  0x00000270       0x10 modbus/functions/mbfuncinput.o
+ .debug_ranges  0x00000280       0x18 modbus/functions/mbfuncother.o
+ .debug_ranges  0x00000298       0x20 modbus/functions/mbutils.o
+ .debug_ranges  0x000002b8       0x38 modbus/mb.o
+ .debug_ranges  0x000002f0       0x10 modbus/port/mbcrc.o
+ .debug_ranges  0x00000300       0x20 modbus/port/portevent.o
+ .debug_ranges  0x00000320       0x30 modbus/port/portserial.o
+ .debug_ranges  0x00000350       0x28 modbus/port/porttimer.o
+ .debug_ranges  0x00000378       0x48 modbus/rtu/mbrtu.o
+ .debug_ranges  0x000003c0       0x20 music/music.o
+ .debug_ranges  0x000003e0       0x38 usart/fifo.o
+ .debug_ranges  0x00000418       0x30 usart/usart.o
+ .debug_ranges  0x00000448       0x40 usart/usart_hlf.o
+ .debug_ranges  0x00000488       0x18 usart/usart_tools.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(eHaJo_EvalBoard_Demo.elf elf32-avr)
+LOAD linker stubs

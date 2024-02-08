@@ -1,0 +1,153 @@
+{  
+	"packages": [  
+	{  
+		"maintainer": "eHaJo",
+		"name": "eHaJo",
+		"email": "info@ehajo.de",
+		"websiteURL": "http://www.eHaJo.de", 
+		"help":{  
+			"online": "https://www.ehajo.de/42/books/arduino-boardmanager"
+		},
+		"platforms": [  
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-1.0.0.zip",
+			"version": "1.0.0",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-1.0.0.zip",
+			"size": "149798",
+			"boards": [  
+				{"name": "eHaJo Gscheiduino"}
+			],
+			"toolsDependencies": []
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-1.0.0.zip",
+			"version": "1.0.1",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-1.0.0.zip",
+			"size": "149798",
+			"boards": [  
+				{"name": "eHaJo Gscheiduino"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-1.0.2.zip",
+			"version": "1.0.2",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-1.0.2.zip",
+			"size": "159199",
+			"boards": [  
+				{"name": "eHaJo Gscheiduino"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-1.1.0.zip",
+			"version": "1.1.0",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-1.1.0.zip",
+			"size": "4951213",
+			"boards": [  
+				{"name": "eHaJo Gscheiduino"},
+				{"name": "eHaJo Fishfeeder"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-2.0.0.zip",
+			"version": "2.0.0",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-2.0.0.zip",
+            "checksum": "SHA-256:45dea5345fc14cfa2a86fabdcc6393c5e97c496b7cd5d5d8877beb2e471310fb",
+			"size": "653025",
+			"boards": [  
+				{"name": "eHaJo aTeVaL 2.0"},
+				{"name": "eHaJo Gscheiduino"},
+				{"name": "eHaJo Fishfeeder"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-2.1.0.zip",
+			"version": "2.1.0",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-2.1.0.zip",
+            "checksum": "SHA-256:ffed5e64ea3660ec440d905faf7ac8f0ae0e0a8be90c15a190e469cb020e04d3",
+			"size": "653014",
+			"boards": [  
+				{"name": "eHaJo aTeVaL 2.0"},
+				{"name": "eHaJo Gscheiduino"},
+				{"name": "eHaJo Fishfeeder"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		},
+		{  
+			"category": "Contributed",
+			"name": "eHaJo AVR Boards",
+			"url": "https://github.com/ehajo/arduino-boards/raw/master/packages/ehajo-avr-2.2.0.zip",
+			"version": "2.2.0",
+			"architecture": "avr",
+			"archiveFileName": "ehajo-avr-2.2.0.zip",
+            "checksum": "SHA-256:59d69eb007d7b1a39704b9e02c0cee1c8fdf520dcaf86ec99652ed0fcc7420a7",
+			"size": "654945",
+			"boards": [  
+				{"name": "eHaJo aTeVaL 2.0"},
+				{"name": "eHaJo Gscheiduino"},
+				{"name": "eHaJo Fishfeeder"}
+			],
+			"toolsDependencies": [
+			{
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino2"
+            }
+			]
+		}
+		],
+		"tools": []
+	}
+	]
+}
